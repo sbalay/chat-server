@@ -91,10 +91,24 @@
     },
     {
       "id": 9,
-      "created_at": 1487596230000,
       "body": "hola!",
+      "created_at": 1487596230000,
       "sender_id": 2,
       "receiver_id": 1
+    },
+    {
+      "body": "larala",
+      "sender_id": 4,
+      "receiver_id": 1,
+      "createdAt": 1487687602990,
+      "id": 10
+    },
+    {
+      "body": "venga el mensaje",
+      "sender_id": 4,
+      "receiver_id": 1,
+      "createdAt": 1487687620534,
+      "id": 11
     }
   ]
 }
