@@ -35,51 +35,66 @@
   "messages": [
     {
       "id": 1,
+      "created_at": 1487592000000,
       "body": "ahora el nombre clave",
       "sender_id": 3,
       "receiver_id": 1
     },
     {
       "id": 2,
+      "created_at": 1487592060000,
       "body": "yo soy zorro 1",
       "sender_id": 3,
       "receiver_id": 1
     },
     {
       "id": 3,
+      "created_at": 1487592120000,
       "body": "skinner es zorro 8",
       "sender_id": 3,
       "receiver_id": 1
     },
     {
       "id": 4,
+      "created_at": 1487592180000,
       "body": "barney es zorro 12",
       "sender_id": 3,
       "receiver_id": 1
     },
     {
       "id": 5,
+      "created_at": 1487592190000,
       "body": "y moe zorro 1",
       "sender_id": 3,
       "receiver_id": 1
     },
     {
       "id": 6,
+      "created_at": 1487592210000,
       "body": "eres un idiota",
       "sender_id": 1,
       "receiver_id": 3
     },
     {
       "id": 7,
+      "created_at": 1487592330000,
       "body": "el grupeteeeeeee",
       "sender_id": 4,
       "group_id": 1
     },
     {
       "id": 8,
+      "created_at": 1487595930000,
       "body": "yo soy zorro 1",
       "sender_id": 3,
       "group_id": 1
+    },
+    {
+      "id": 9,
+      "created_at": 1487596230000,
+      "body": "hola!",
+      "sender_id": 2,
+      "receiver_id": 1
     }
   ]
 }
