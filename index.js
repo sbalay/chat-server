@@ -16,7 +16,7 @@ server.get('/echo', function (req, res) {
 server.use(jsonServer.bodyParser)
 server.use(function (req, res, next) {
   if (req.method === 'POST') {
-    req.body.created_at = Date.now()
+    req.body.createdAt = Date.now()
   }
   // Continue to JSON Server router
   next()
