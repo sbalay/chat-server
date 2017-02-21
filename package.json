@@ -1,0 +1,10 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "React Native Training: Chat service",
+  "main": "index.js",
+  "author": "Sebastian Balay <sebastian.balay@wolox.com.ar>",
+  "dependencies": {
+    "json-server": "^0.9.5"
+  }
+}
