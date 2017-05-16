@@ -41,18 +41,34 @@ Filters: `senderId` `receiverId` `body` `groupId`
 
 For example, to get chat between two users with ids 1 and 3:
 
-GET **http://localhost:3000/messages?sender_id=3&receiver_id=1&sender_id=1&receiver_id=3**
+GET **http://localhost:3000/messages?senderId=3&receiverId=1&senderId=1&receiverId=3**
 
 To get messages that belongs to a group:
 
-GET **http://localhost:3000/messages?group_id=1**
+GET **http://localhost:3000/messages?groupId=1**
 
 ### Advanced guide
 
 https://github.com/typicode/json-server#routes
 
+## Creating messages from App
+
+POST **http://localhost:3000/messages**
+
+Body for single messages: {
+  body,
+  senderId,
+  receiverId
+}
+
+Body for group messages: {
+  body,
+  senderId,
+  groupId
+}
+
 ## Creating messages from the terminal
 
-Run the following command: `node send_message.js --body "venga el mensaje" --sender_id 4 --receiver_id 1`
+Run the following command: `node send_message.js --body "venga el mensaje" --senderId 4 --receiverId 1`
 
 (*): Make sure the json server is running in port 3000
